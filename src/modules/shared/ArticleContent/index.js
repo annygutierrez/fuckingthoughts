@@ -17,11 +17,12 @@ export const articleContent = {
         subtitle: 'First take',
         resume: 'How little things get you into big things.',
         article: [
-            <p>When I was a little girl, I was afraid of everything, literally. I was afraid of my own shadow and the twilight (not the movie, the real one hahaha), so I know my little me would be surprised and terrified if I told her about my language interests.</p>,
+            <p>When I was a little girl, I was afraid of everything, literally. I was afraid of my own shadow and the twilight (not the movie, the real one hahaha), so I know my little me would be surprised and terrified if I told her about my language interests, because, yeah . . . I was afraid of how Russian people sound in movies.</p>,
             <p>Learning a new language is an adventure, you have to be willing to get into a new world of possibilities and problems. Learning English was easy in some ways, it really is everywhere now, and it’s very difficult to escape from it. </p>,
-            <p>When I got into Russian, it was a very random decision, I didn’t plan to learn it, but I had a little unconscious story with it since 2018, when I found the song that would change everything when stalking a collegue xD <strong><i>(Sudno)</i></strong>, then youtube conspired (spied on me) and showed me a new song, then I got to know a Russian girl, then more music came into the picture and finally . . . the war.</p>,
-            <p>I really got curious about that big chunk of the world full of countries that nobody likes to talk about, and to my surprised, it was worth it.</p>,
-            <p><strong>“Don’t underestimate <i>the little things</i>”</strong></p>
+            <p>When I got into Russian, it was a very random decision, I didn’t plan to learn it, but I had a little unconscious story with it since 2018, when I found the song that would change everything when stalking a collegue xD <strong><i>(Sudno)</i></strong>, then youtube conspired (spied on me) and showed me a new song, then I got to know a Russian girl, then more music came into the picture and finally . . . the Ukranian war.</p>,
+            <p>All these events pushed me to learn Russian. I really got curious about that big chunk of the world full of countries that nobody likes to talk about, and to my surprised, it was totally  worth it.</p>,
+            <p><strong>“Don’t underestimate <i>the little things</i>, they can trigger big changes in your life.”</strong></p>,
+            <p style={{ fontSize: '12px', margin: '0', marginTop: '-2.8em', color: '#900000' }}><i> It does really feel like getting into that Russian course was a reset.</i></p>
         ],
         photo: RusiaPhoto
     }

@@ -9,6 +9,7 @@ const ArticleText = ({ selectedArticle }) => {
             <div className='ArticleBox' style={{  }}>
                 <p style={{ fontSize: '14px', margin: '0' }}>{articleContent[selectedArticle].subtitle}</p>
                 <p style={{ fontSize: '40px', fontWeight: '900', marginTop: '0px' }}>{articleContent[selectedArticle].title}</p>
+                <p style={{ fontWeight: '600' }}>{articleContent[selectedArticle].resume}</p>
                 <ParagraphsList paragraphs={articleContent[selectedArticle].article} />
             </div>
         </div>

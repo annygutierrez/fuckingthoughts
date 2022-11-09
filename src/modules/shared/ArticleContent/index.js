@@ -1,6 +1,7 @@
 import AwkwardPhoto from '../images/pngs/awkward.png';
 import RusiaPhoto from '../images/pngs/rusia.png';
 import KisKisPhoto from '../images/pngs/kiskis.png';
+import './styles.css';
 
 export const articleContent = {
     0: {
@@ -38,7 +39,13 @@ export const articleContent = {
             <p>Whoever had the idea of the artistic concept of this band is a genius. The sound, the designs, the band name, the outfits, the way they approach concerts, the TaTu style of the interactions of the female bandmates, the subtle gopnik style, the music video shots, the colorization, the edition . . . just perfection.</p>,
             <p>Sorry, I got carried away 😂, anyways, you get it, now I have hundreds of articles to read  and thousands of videos to watch and I’m not even mad. </p>,
             <p style={{ fontSize: '16px', color: '#900000' }}><strong>“Алина трахни меня”</strong></p>,
-            <p style={{ fontSize: '13px', color: '#000000', maring: '0', marginTop: '-3.5em' }}><i>- Someone at a concert</i></p>
+            <p style={{ fontSize: '13px', color: '#000000', maring: '0', marginTop: '-3.5em' }}><i>- Someone at a concert</i></p>,
+            <p style={{ color: '#B09E9E' }}>When I was a kid, <a href='https://www.facebook.com/comunaarea7' target="_blank" style={{ color: '#6A3A3A', fontWeight: '600' }}>Area 7</a> used to do practice sessions on the garage of  the building where I lived, I give them the credit for my love for the style of <a href='https://www.facebook.com/kiskisnotdead' target="_blank" style={{ color: '#6A3A3A', fontWeight: '600' }}>кис-кис</a>.</p>,
+            <p style={{ color: '#B09E9E' }}>This video unlocked a childhood memory I didn’t know I had.</p>,
+            <video className='RapperVideo' controls="controls">
+            <source src={require('./rapper.mp4')} type="video/mp4"/>
+            Your browser does not support the video functionality.
+        </video>
         ],
         photo: KisKisPhoto
     }

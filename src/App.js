@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import MainHeade from './modules/shared/components/MainHeader';
+import Article from './modules/article';
+import ArticleSelector from './modules/shared/components/ArticleSelector';
+import { useState } from 'react';
 
 function App() {
+
+  const [selectedArticle, setSelectedArticle] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div style={{ display: 'flex', flex: 1 }}>
+     <MainHeade />
+     <Article selectedArticle={selectedArticle} />
+     <ArticleSelector onAction={setSelectedArticle} selectedArticle={selectedArticle} />
+   </div>
   );
 }
 

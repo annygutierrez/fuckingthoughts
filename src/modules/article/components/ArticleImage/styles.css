@@ -1,0 +1,36 @@
+.ArticlePhoto {
+    width: 100%;
+    height: auto;
+}
+
+.PhotoContainer {
+    width: 50vw;
+}
+
+.PhotoBox {
+    padding-right: 2em;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1100px) {
+    .PhotoContainer {
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .PhotoBox {
+        width: 50%;
+
+    }
+
+    .ArticlePhoto {
+        width: 50vw
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ArticlePhoto {
+        width: 100vw;
+    }
+}

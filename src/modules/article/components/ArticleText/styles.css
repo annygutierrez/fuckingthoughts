@@ -1,0 +1,13 @@
+.ArticleBox {
+    display: flex;
+    width: 37vw;
+    padding-top: 4em;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 960px) {
+    .ArticleBox {
+        width: 80vw;
+    }
+}

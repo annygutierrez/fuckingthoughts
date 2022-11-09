@@ -5,7 +5,7 @@ import KisKisPhoto from '../images/pngs/kiskis.png';
 export const articleContent = {
     0: {
         title: 'Learning to learn',
-        subtitle: 'First take',
+        subtitle: 'First take - 9 nov 2022',
         resume: 'It’s really a challenge to suck at something new and doing it anyways.',
         article: [
             <p>When I started as a programmer I was in a very difficult place personally, and it made it really challenging to suck at being a programmer. Even though I had no talent whatsoever, I was full of <strong><i>survival motivation</i></strong>, which made it possible for me to get what I wanted. Now it’s different.</p>,
@@ -15,7 +15,7 @@ export const articleContent = {
     },
     1: {
         title: 'RAZIIIIYA!!!',
-        subtitle: 'First take',
+        subtitle: 'First take - 9 nov 2022',
         resume: 'How little things get you into big things.',
         article: [
             <p>When I was a little girl, I was afraid of everything, literally. I was afraid of my own shadow and the twilight (not the movie, the real one hahaha), so I know my little me would be surprised and terrified if I told her about my language interests, because, yeah . . . I was afraid of how Russian people sound in movies.</p>,
@@ -29,7 +29,7 @@ export const articleContent = {
     },
     2: {
         title: 'Embracing an obsession',
-        subtitle: 'First take',
+        subtitle: 'First take - 9 nov 2022',
         resume: 'Found a thing to be obsessed about for the next 10 months',
         article: [
             <p>I’m a person that has a very strong obsessive compultion, which has led me to limit the things I let myself be obsessed about.</p>,

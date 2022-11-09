@@ -1,5 +1,6 @@
 import AwkwardPhoto from '../images/pngs/awkward.png';
 import RusiaPhoto from '../images/pngs/rusia.png';
+import KisKisPhoto from '../images/pngs/kiskis.png';
 
 export const articleContent = {
     0: {
@@ -25,5 +26,20 @@ export const articleContent = {
             <p style={{ fontSize: '12px', margin: '0', marginTop: '-2.8em', color: '#900000' }}><i> It does really feel like getting into that Russian course was a reset.</i></p>
         ],
         photo: RusiaPhoto
+    },
+    2: {
+        title: 'Embracing an obsession',
+        subtitle: 'First take',
+        resume: 'Found a thing to be obsessed about for the next 10 months',
+        article: [
+            <p>I’m a person that has a very strong obsessive compultion, which has led me to limit the things I let myself be obsessed about.</p>,
+            <p>The first time I did let myself fall hard into an obsession was in 2016, I had so much free time that I decided it didn’t mattered, luckily I found out that when I’m in the middle of my obsession, my brain doesn’t feel how tired I’m of hearing someone talking in a language I don’t understand, that’s how I learned how to watch movies in English without subtitles, it felt like my head was cut open and things just started to make sense.</p>,
+            <p>I heard about <strong style={{ fontSize: '18px' }}>кис-кис</strong> almost a year ago, I was looking for new music on spotify and the software recommended me one of their tracks, it was amazing, in a weird way, I was not used to the sound they had, the combination was interesting, some kind of electronic sound, plus 2007 emo nostalgia. Months later, after getting into a Russian course, I was looking for an obsession, and rediscovered them by watching their music videos.</p>,
+            <p>Whoever had the idea of the artistic concept of this band is a genius. The sound, the designs, the band name, the outfits, the way they approach concerts, the TaTu style of the interactions of the female bandmates, the subtle gopnik style, the music video shots, the colorization, the edition . . . just perfection.</p>,
+            <p>Sorry, I got carried away 😂, anyways, you get it, now I have hundreds of articles to read  and thousands of videos to watch and I’m not even mad. </p>,
+            <p style={{ fontSize: '16px', color: '#900000' }}><strong>“Алина трахни меня”</strong></p>,
+            <p style={{ fontSize: '13px', color: '#000000', maring: '0', marginTop: '-3.5em' }}><i>- Someone at a concert</i></p>
+        ],
+        photo: KisKisPhoto
     }
 }

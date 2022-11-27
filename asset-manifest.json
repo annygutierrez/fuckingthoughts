@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/fuckingthoughts/static/css/main.062da03b.css",
-    "main.js": "/fuckingthoughts/static/js/main.a766ca29.js",
+    "main.js": "/fuckingthoughts/static/js/main.9a4f93ed.js",
     "static/js/787.84bf16bd.chunk.js": "/fuckingthoughts/static/js/787.84bf16bd.chunk.js",
     "static/media/rapper.mp4": "/fuckingthoughts/static/media/rapper.82858b999cbb1e64dfe8.mp4",
     "static/media/rusia.png": "/fuckingthoughts/static/media/rusia.e41e802e5f6b742134fb.png",
+    "static/media/highonmusic.png": "/fuckingthoughts/static/media/highonmusic.ac93f93f22285ce542a0.png",
     "static/media/kiskis.png": "/fuckingthoughts/static/media/kiskis.db1cd6af07f229a8d606.png",
     "static/media/awkward.png": "/fuckingthoughts/static/media/awkward.83ec7318c49911133972.png",
     "static/media/logo.svg": "/fuckingthoughts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/fuckingthoughts/index.html",
     "main.062da03b.css.map": "/fuckingthoughts/static/css/main.062da03b.css.map",
-    "main.a766ca29.js.map": "/fuckingthoughts/static/js/main.a766ca29.js.map",
+    "main.9a4f93ed.js.map": "/fuckingthoughts/static/js/main.9a4f93ed.js.map",
     "787.84bf16bd.chunk.js.map": "/fuckingthoughts/static/js/787.84bf16bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.062da03b.css",
-    "static/js/main.a766ca29.js"
+    "static/js/main.9a4f93ed.js"
   ]
 }

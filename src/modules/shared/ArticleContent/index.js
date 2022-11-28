@@ -2,6 +2,7 @@ import AwkwardPhoto from '../images/pngs/awkward.png';
 import RusiaPhoto from '../images/pngs/rusia.png';
 import KisKisPhoto from '../images/pngs/kiskis.png';
 import HighPhoto from '../images/pngs/highonmusic.png';
+import MonologPhoto from '../images/pngs/monolog.png';
 import './styles.css';
 
 export const articleContent = {
@@ -42,6 +43,25 @@ export const articleContent = {
         photo: KisKisPhoto
     },
     2: {
+        title: 'Pandemic Reset',
+        subtitle: 'First take - 28 nov 2022',
+        resume: 'A very personal existential crisis brought to you, triggered by too many German classes 😂',
+        article: [
+            <p>After more than two years since the pandemic started, I still can’t believe it happened, honestly, it feels like it never did, it feels like the world that existed before was from another universe, a dream, and now I’m living in a totally different earth, universe, and state of mind.</p>,
+            <p>The pandemic gave us a lot of time to think about what we really wanted, at least that’s how it was for me. Before the <strong>covid apocalypse</strong> happened, I was on a <strong>‘let’s hustle until I can no longer breath’</strong> state of mind, I wanted to go to the US to finish my studies, wanted to work for a big company like Google, build my own business, while living in New york or some shit, I had an entire plan prepared, a list of tasks I was suppoused to accomplish in order to do everything I wanted.</p>,
+            <p>Two years later, I accomplished everything I was suppoused to accomplish, but I no longer want to go to the USA to have the life of a hustler.</p>,
+            <p style={{ color: '#B09E9E' }}><i>As someone who has been working its ass since being a 16 years old without breaks, while being hated by people who were suppouse to be a support system, while being in charge of the adults and kids (I’m still in charge by the way), I finally got to the point where I feel I lost part of my life, while other teens were making friends, socializing, going to university or to the institute, I was trapped, having to be an adult for everyone around me.</i></p>,
+            <p style={{ color: '#B09E9E' }}><i>Also, after working for almost 5 years on IT and seeing  high rank people from almost every peruvian company, I got to the conclussion that, at the end of the day, everyone wants and needs to earn money on their sleep to live a proper life these days, especially if you don’t even have your parents’ house to recover from your failures, or anyone’s house.</i></p>,
+            <p style={{ color: '#B09E9E' }}><i>I want to have freedom to fail and to dream again, to try things just because, to go live anywhere, try to live a life, fail, and try again, I’m tired of the ‘all or nothing’ bets I’ve been doing since a teenager.</i></p>,
+            <p style={{ color: '#B09E9E' }}><i>I want freedom. Freedom to be stupid and inmature, because I am, but I can’t be. Everything due to the fact that I didn’t even had time to mature. </i></p>,
+            <p style={{ color: '#B09E9E' }}><i>I see a lot of people my age are settleling down, but my mind is still not there, I’ve been forced to be there, now I want get the fuck out of here. </i></p>,
+            <p style={{ fontSize: '16px', color: '#000000' }}><strong>Pandemic Monologue</strong></p>,
+            <p style={{ fontSize: '13px', color: '#000000', maring: '0', marginTop: '-3.5em' }}><i>- My lonely ass in the middle of the pandemic</i></p>,
+            <p style={{ fontSize: '12px', color: '#900000' }}>This is another prove that learning a new language can cause an existential crisis hahahaha, even though my reflection about my personal situation was totally valid, I’m pretty sure this wouldn’t have happend if I wasn’t taking German classes. Before that, everything was crystal clear, then I started to question my own ideals, after getting to know some German people’s way of life.</p>,
+        ],
+        photo: MonologPhoto
+    },
+    3: {
         title: 'High On Music',
         subtitle: 'First take - 27 nov 2022',
         resume: 'Is it possible to get high on music?',

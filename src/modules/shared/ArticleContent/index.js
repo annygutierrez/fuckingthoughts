@@ -3,6 +3,7 @@ import RusiaPhoto from '../images/pngs/rusia.png';
 import KisKisPhoto from '../images/pngs/kiskis.png';
 import HighPhoto from '../images/pngs/highonmusic.png';
 import MonologPhoto from '../images/pngs/monolog.png';
+import ThisYearPhoto from '../images/pngs/22.png';
 import './styles.css';
 
 export const articleContent = {
@@ -62,6 +63,20 @@ export const articleContent = {
         photo: MonologPhoto
     },
     3: {
+        title: 'I still feel like 22.',
+        subtitle: 'First take - 28 nov 2022',
+        resume: 'My thoughts on 2022',
+        article: [
+            <p><i><strong>This year</strong></i> wasn’t what I expected, like almost any other year haha. </p>,
+            <p><i><strong>This year</strong></i> was fucking hard, had to swallow a couple truths, more than a couple, had so many health problems that I lost count, had to postpone plans I had for most of the year, and so on.</p>,
+            <p><i><strong>This year</strong></i> I fell into a routine were nothing out of the normal was happening, and that was driving me crazy, had a dozen existential crisis episodes, changed my mind like a thousand times, and made it up ten thousand times more.</p>,
+            <p><i><strong>This year</strong></i> for the first time in my life, had an existential crisis about dying, about accepting my inevitable dead, and the dead of the people I love, about how stupid our existence can be, when all we did while alive was typing on a computer for 50 years while life was happening outside. Had a difficult time accepting that life in general has a sad ending, and there is a beauty in it, despite being raw and unfair.</p>,
+            <p><i><strong>This year</strong></i>  I saw how all the flashy and beautiful places I used to visit no longer excite me, they lost their novelty and magic, maybe I got use to them, like we get use to anything in life, maybe I need a change, maybe what really excites me now is the <strong>‘why?’</strong>, and not the <strong>‘where?’</strong></p>,
+            <p><i><strong>This year</strong></i>  was great, I also accomplished more than a couple of milestones in my life, I’m very proud of myself, I finally feel like I could give life advice to my 2019 self 😂.</p>
+        ],
+        photo: ThisYearPhoto
+    },
+    4: {
         title: 'High On Music',
         subtitle: 'First take - 27 nov 2022',
         resume: 'Is it possible to get high on music?',

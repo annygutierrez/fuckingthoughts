@@ -4,32 +4,64 @@ import KisKisPhoto from '../images/pngs/kiskis.png';
 import HighPhoto from '../images/pngs/highonmusic.png';
 import MonologPhoto from '../images/pngs/monolog.png';
 import ThisYearPhoto from '../images/pngs/22.png';
+import ChangedMindPhoto from '../images/pngs/changed.png';
 import './styles.css';
 
 export const articleContent = {
     0: {
+        title: <span>Changed my mind: <span style={{ color: '#FA5D5D' }}>2022 edition</span></span>,
+        subtitle: 'First take - 30 dec 2022',
+        resume: 'Key moments someone or something changed my mind in 2022',
+        article: [
+            <p>There have been some moments this year that changed the entire course of my plans (we could say ‘the course of my life’ but it’s too soon to say that ... I think), and I wanted to make a list of them to read them in the future, and laugh, or cry, depending on the result.</p>,
+            <p><strong>Taking the C1 English test.</strong> This’ gonna sound pretty obvious, but didn’t really believe it until it happened. I though that being fluent in a language was very hard, I mean, it is, but I though it was harder to get to a level when you really feel comfortable. After taking the C1 English test and barely approve it, I think I was wrong, because now I’m quite confident talking to strangers even though I make mistakes and forget words.  </p>,
+            <p><strong>Taking Russian classes.</strong> I wanted to continue my German classes, so I could make use of it when I went to Germany, but I had some very strong expenses at the time and didn’t have enough money to pay for more German classes. I was curious about learning Russian, so when I read that the Russian Federation was opening a new class (and it was cheaper), I decided to enroll.</p>,
+            <p>Every time I started to learn a language I tried to find something I could be obsessed about in this new language so I could learn it more easily, every time I do it, suddenly all my plans change, the thing is, I could find so many cultural things the soviet union and Russia shared with South America that I just started to analyze things on a different perspective.</p>,
+            <p><strong>Estonia.</strong> Someone from Estonia contacted me to talk about work, I barely knew the name of the country, and after that conversation I got interested in this country and its history. The conflict between modern Russian population living in Estonia and Estonians was interesting, and made me think.</p>,
+            <p><strong>Peruvian Political Crisis.</strong> I had hope in my country until this year, after seeing so many manifestations of hate and violence in a way I’ve never seen before in my entire life, after terrorists groups started to come out again, I know my country is not in a good situation, and probably won’t be for decades to come.</p>,
+            <p><strong>Inexplicable anemia.</strong> I had anemia for most of this year, and seeing how no doctor could find the reason made me panic and depressed, this was the moment I got over the fact that, shit happens, and that I can die at any moment. </p>,
+            <p><strong>КИС-КИС.</strong> Seeing how this young group of musicians managed to pull out their project (however it happened), made me feel motivated to change the direction of my personal project(a software program), and keep going with it, the thing is . . . strategy is very important.</p>,
+            <p><strong><i>- I hope for more things to change my mind in 2023.</i></strong></p>
+        ],
+        photo: ChangedMindPhoto
+    },
+    1: {
         title: 'RAZIIIIYA!!!',
         subtitle: 'First take - 9 nov 2022',
         resume: 'How little things get you into big things.',
         article: [
-            <p>When I was a little girl, I was afraid of everything, literally. I was afraid of my own shadow and the twilight (not the movie, the real one hahaha), so I know my little me would be surprised and terrified if I told her about my language interests, because, yeah . . . I was afraid of how Russian people sound in movies.</p>,
+            <p>When I was a little girl, I was afraid of everything, literally. I was afraid of my own shadow and the twilight (not the movie, the real one hahaha), so I know my little me would be surprised and terrified if I told her that I'm studying Russian, because, yeah . . . I was afraid of how Russian people sounded in movies.</p>,
             <p>Learning a new language is an adventure, you have to be willing to get into a new world of possibilities and problems. Learning English was easy in some ways, it really is everywhere now, and it’s very difficult to escape from it. </p>,
-            <p>When I got into Russian, it was a very random decision, I didn’t plan to learn it, but I had a little unconscious story with it since 2018, when I found the song that would change my life forever <strong><i>(too dramatic hahaha)</i></strong> when stalking a collegue <strong><i>(Molchat Doma - Судно)</i></strong>, then youtube conspired (spied on me) and showed me a new song, then I met a Russian girl, then more music came into the picture, found out a German rapper I follow was actually Russian, discovered Poshlaya Molly, spotify made me listen to КИС-КИС, and finally . . . the Ukranian war.</p>,
-            <p>All these events pushed me to learn Russian. I really got curious about that big chunk of the world full of countries that nobody likes to talk about, and to my surprised, it was totally  worth it.</p>,
-            <p><strong>“Don’t underestimate <i>the little things</i>, they can trigger big changes in your life.”</strong></p>,
+            <p>When I got into Russian, it was a very random decision, I didn’t plan to learn it, but I had a little unconscious story with it since 2018, when I found the song that would change my life forever <strong><i>(too dramatic hahaha)</i></strong> when stalking a collegue <strong><i>(Molchat Doma - Судно)</i></strong>, then youtube conspired (spied on me) and showed me a new song, then I met a Russian girl, then more music came into the picture, found out a German rapper I follow was actually Russian, discovered Poshlaya Molly, spotify made me listen to КИС-КИС, and finally . . . the Russo-Ukranian war.</p>,
+            <p>All these events pushed me to learn Russian. I really got curious about that big chunk of the world full of countries that nobody likes to talk about, and to my surprise, it was totally  worth it.</p>,
+            <p><strong>“Don’t underestimate <i>little things</i>, they can trigger big changes in your life.”</strong></p>,
             <p style={{ fontSize: '12px', margin: '0', marginTop: '-2em', color: '#900000' }}><i> It does really feel like getting into that Russian course was a reset.</i></p>,
             <p style={{ fontSize: '12px', margin: '0', marginTop: '-3em', color: '#900000' }}><i> So, there you have it, if you want a life reset, try learning a new language.</i></p>
         ],
         photo: RusiaPhoto
     },
-    1: {
+    2: {
+        title: 'I still feel like 22.',
+        subtitle: 'First take - 28 nov 2022',
+        resume: 'My thoughts on 2022',
+        article: [
+            <p><i><strong>This year</strong></i> wasn’t what I expected, like almost any other year haha. </p>,
+            <p><i><strong>This year</strong></i> was fucking hard, had to swallow a couple truths, more than a couple, had so many health problems that I lost count, had to postpone plans I had for most of the year, and so on.</p>,
+            <p><i><strong>This year</strong></i> I fell into a routine were nothing out of the normal was happening, and that was driving me crazy, had a dozen existential crisis episodes, changed my mind like a thousand times, and made it up ten thousand times more.</p>,
+            <p><i><strong>This year</strong></i> for the first time in my life, had an existential crisis about dying, about accepting my inevitable dead, and the dead of the people I love, about how stupid our existence can be, when all we did while alive was typing on a computer for 50 years while life was happening outside. Had a difficult time accepting that life in general has a sad ending, and there is a beauty in it, despite being raw and unfair.</p>,
+            <p><i><strong>This year</strong></i>  I saw how all the flashy and beautiful places I used to visit no longer excite me, they lost their novelty and magic, maybe I got use to them, like we get use to anything in life, maybe I need a change, maybe what really excites me now is the <strong>‘why?’</strong>, and not the <strong>‘where?’</strong></p>,
+            <p><i><strong>This year</strong></i>  was great, I also accomplished more than a couple of milestones in my life, I’m very proud of myself, I finally feel like I could give life advice to my 2019 self 😂.</p>
+        ],
+        photo: ThisYearPhoto
+    },
+    3: {
         title: 'Embracing an obsession',
-        subtitle: 'First take - 9 nov 2022',
+        subtitle: 'Second take - 9 nov 2022',
         resume: 'Found a thing to be obsessed about for the next 10 months',
         article: [
-            <p>I’m a person that has a very strong obsessive compultion, which has led me to limit the things I let myself be obsessed about.</p>,
-            <p>The first time I did let myself fall hard into an obsession was in 2016, I had so much free time that I decided it didn’t mattered, luckily I found out that when I’m in the middle of my obsession, my brain doesn’t feel how tired I’m of hearing someone talking in a language I don’t understand, that’s how I learned how to watch movies in English without subtitles, it felt like my head was cut open and things just started to make sense.</p>,
-            <p>I heard about <strong style={{ fontSize: '18px' }}>кис-кис</strong> almost a year ago, I was looking for new music on spotify when I stumbled into one of their tracks, it was amazing, in a weird way, I was not used to the sound they had, the combination was interesting, some kind of electronic sound, plus 2007 emo nostalgia. Months later, after getting into a Russian course, I was looking for a new interest, and rediscovered them by watching their music videos.</p>,
+            <p>I’m a person that has a very strong obsessive compultion, which has led me to limit the things I let myself be obsessed about. I try to make proper use of it.</p>,
+            <p>The first time I did let myself fall hard into an obsession was in 2016, I had so much free time that I decided it didn’t mattered, luckily I found out that when I’m in the middle of my obsession, my brain doesn’t feel how tired I’m of hearing someone talking in a language I don’t understand, that’s how I learned how to watch movies in English without subtitles, it felt like my head was cut open and things just started to make sense (This was a total surprise for me because I hated English in elementary school).</p>,
+            <p>I heard about <strong style={{ fontSize: '18px' }}>кис-кис</strong> almost a year ago, I was looking for new music on spotify when I stumbled into one of their tracks, it was amazing, in a weird way, I was not used to the sound they had, the combination was interesting, some kind of electronic sound, plus 2007 emo nostalgia. Months later, after getting into a Russian course, I decided to go deep into each Russian-speaking artist I had encounter to collect audiovisuals in Russian that could be appealing to watch or listen to.</p>,
             <p>Whoever had the idea of the artistic concept of this band is a genius. The sound, the designs, the band name, the outfits, the way they approach concerts, the TaTu style of the interactions of the female bandmates, the subtle gopnik style, the music video shots, the colorization, the edition . . . just perfection.</p>,
             <p>Sorry, I got carried away 😂, anyways, you get it, now I have hundreds of articles to read  and thousands of videos to watch and I’m not even mad. </p>,
             <p style={{ fontSize: '16px', color: '#900000' }}><strong>“Алина трахни меня”</strong></p>,
@@ -42,7 +74,7 @@ export const articleContent = {
         </video>
         ],
         photo: KisKisPhoto
-    },
+    }
     // 2: {
     //     title: 'Pandemic Reset',
     //     subtitle: 'First take - 28 nov 2022',
@@ -62,20 +94,7 @@ export const articleContent = {
     //     ],
     //     photo: MonologPhoto
     // },
-    2: {
-        title: 'I still feel like 22.',
-        subtitle: 'First take - 28 nov 2022',
-        resume: 'My thoughts on 2022',
-        article: [
-            <p><i><strong>This year</strong></i> wasn’t what I expected, like almost any other year haha. </p>,
-            <p><i><strong>This year</strong></i> was fucking hard, had to swallow a couple truths, more than a couple, had so many health problems that I lost count, had to postpone plans I had for most of the year, and so on.</p>,
-            <p><i><strong>This year</strong></i> I fell into a routine were nothing out of the normal was happening, and that was driving me crazy, had a dozen existential crisis episodes, changed my mind like a thousand times, and made it up ten thousand times more.</p>,
-            <p><i><strong>This year</strong></i> for the first time in my life, had an existential crisis about dying, about accepting my inevitable dead, and the dead of the people I love, about how stupid our existence can be, when all we did while alive was typing on a computer for 50 years while life was happening outside. Had a difficult time accepting that life in general has a sad ending, and there is a beauty in it, despite being raw and unfair.</p>,
-            <p><i><strong>This year</strong></i>  I saw how all the flashy and beautiful places I used to visit no longer excite me, they lost their novelty and magic, maybe I got use to them, like we get use to anything in life, maybe I need a change, maybe what really excites me now is the <strong>‘why?’</strong>, and not the <strong>‘where?’</strong></p>,
-            <p><i><strong>This year</strong></i>  was great, I also accomplished more than a couple of milestones in my life, I’m very proud of myself, I finally feel like I could give life advice to my 2019 self 😂.</p>
-        ],
-        photo: ThisYearPhoto
-    },
+    
     // 3: {
     //     title: 'High On Music',
     //     subtitle: 'First take - 27 nov 2022',
